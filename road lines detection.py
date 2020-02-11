@@ -1,10 +1,13 @@
 import cv2
 import numpy as np
 
+upper_left = (100, 600)
+bottom_right = (800, 2000)
 video = cv2.VideoCapture("video.mp4")
 
 while True:
-    ret, orig_frame = video.read()
+    ret, orig_frame_ori = video.read()
+    orig_frame = orig_frame_ori[upper_left[1] : bottom_right[1], upper_left[0] : bottom_right[0]]
     if not ret:
         video = cv2.VideoCapture("video.mp4")
         continue
