@@ -12,8 +12,8 @@ def sketch_transform(image):
 
 cam_capture = cv2.VideoCapture(0)
 cv2.destroyAllWindows()
-upper_left = (50, 50)
-bottom_right = (300, 300)
+upper_left = (10, 10)
+bottom_right = (500, 500)
 while True:
     _, image_frame = cam_capture.read()
 
