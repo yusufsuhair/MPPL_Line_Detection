@@ -1,4 +1,6 @@
-# MPPL_Line_Detection
+# mppl-line-detection
+
+Assignment for Digital Image Processing subject, third year of bachelor in Computer Science at Universitas Darussalam Gontor
 
 # ROI from inside of the video
 
